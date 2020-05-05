@@ -35,7 +35,7 @@ class LoginPage {
     }
 
     verificaPaginaLogado() {
-        cy.get(inputAlunoId()).should('have.value', '624203')
+        cy.get(inputAlunoId()).should('have.value', Cypress.env('id'))
     }
 }
 
