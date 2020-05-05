@@ -8,7 +8,9 @@
     "cypress-cucumber-preprocessor": "^2.3.1"
   },
   "scripts": {
-    "test:chrome": "cypress run --browser chrome --no-exit"
+    "test:chrome": "cypress run --browser chrome --no-exit",
+    "test:firefox": "cypress run --browser firefox --no-exit",
+    "test:edge": "cypress run --browser edge --no-exit"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/support/steps"

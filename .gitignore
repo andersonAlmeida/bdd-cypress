@@ -3,3 +3,7 @@ node_modules
 *.log
 
 cypress.env.json
+
+videos
+
+screenshots
